@@ -1,0 +1,16 @@
+{
+  "name": "yarn-docker",
+  "version": "1.0.0",
+  "description": "Docker setup for yarn workspaces",
+  "main": "index.js",
+  "author": "Siddharth Venkatesh",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "admin": "yarn workspace admin start",
+    "product": "yarn workspace product start",
+    "build:admin": "yarn workspace admin build",
+    "build:product": "yarn workspace product build"
+  }
+}

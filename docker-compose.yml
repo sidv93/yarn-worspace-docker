@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  admin:
+    container_name: admin
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - BUILD_APP=admin
+    ports:
+      - '8080:80'
+  product:
+    container_name: product
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - BUILD_APP=product
+    ports:
+      - '8082:80'
