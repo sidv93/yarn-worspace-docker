@@ -1,0 +1,17 @@
+.Button {
+    padding: 5px 10px;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.Button-primary {
+    background-color: aquamarine;
+}
+
+.Button-secondary {
+    background-color: burlywood;
+}
+
+.Button-error {
+    background-color: red;
+}
