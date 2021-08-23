@@ -11,7 +11,7 @@ function App() {
         <p>
           Welcome to admin
         </p>
-        <Button type="primary" text="hello" onClick={() => console.log('hello')} />
+        <Button type="error" text="hello" onClick={() => console.log('hello')} />
         <a
           className="App-link"
           href="https://reactjs.org"
