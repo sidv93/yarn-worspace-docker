@@ -8,8 +8,8 @@
   "private": true,
   "workspaces": ["apps/*"],
   "scripts": {
-    "admin": "yarn build:lib && yarn workspace admin start",
-    "product": "yarn build:lib && yarn workspace product start",
+    "start:admin": "yarn build:lib && yarn workspace admin start",
+    "start:product": "yarn build:lib && yarn workspace product start",
     "build:admin": "yarn build:lib && yarn workspace admin build",
     "build:product": "yarn build:lib && yarn workspace product build",
     "build:lib": "yarn workspace lib build"

@@ -12,14 +12,6 @@ function App() {
           Welcome to admin
         </p>
         <Button type="error" text="hello" onClick={() => console.log('hello')} />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
